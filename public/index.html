@@ -1,0 +1,58 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calorie calculator Current</title> 
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" href="https://cdn.glitch.com/8559cfac-23ba-4c4a-ba07-32c4f4a8ad7b%2Funtitled.png?v=1575409908378" type="image/x-icon" />
+  <!--<link rel="shortcut icon" href="https://cdn.glitch.com/8559cfac-23ba-4c4a-ba07-32c4f4a8ad7b%2Ffav.svg?v=1575384462796" type="image/png" />-->
+  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
+
+  
+  </head>
+<body>
+ 
+  
+
+
+<div class="header">
+  <span id="banner">Calorie Calculator</span>
+  <br>
+  <input type="text" id="uI" value="" placeholder="Enter a food or dish" ><br>	
+  <button class="button" id="inButtn" onclick="setInput()" style="vertical-align:middle"><span>Search</span></button>
+  <br>
+  <div>
+    Total Calories:   <span id="tCal"></span>
+    
+  </div>
+  
+</div><!--header-->
+  
+<div class = "grid-container">
+  <div id="c">
+    
+  </div>
+  <div id="toper">
+   
+  </div>
+  
+ <div id="top">
+   
+  </div>
+
+</div><!--grid container-->
+
+
+
+
+
+  
+
+  <script src="client.js"></script>
+
+</body>
+</html>
